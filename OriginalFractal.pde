@@ -26,8 +26,8 @@ public void draw(){
   if (r<10)
     r=255;
   if (keyPressed && key == 'f'){
-    roseC = color(#BC1111, r-=0.05);
-    strokeC = color(0, r-=0.05);
+    roseC = color(#BC1111, r-=5);
+    strokeC = color(0, r-=5);
   }
    if (keyPressed && key == 'r'){
       siz = 100;
